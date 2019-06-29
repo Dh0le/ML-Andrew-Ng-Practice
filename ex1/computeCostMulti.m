@@ -13,7 +13,7 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 %hypothesis
-h = x*theta
+h = X*theta
 % the cost function is actually  the same as in univarian linear regression
 %cost
 J = sum((h-y).^2)/(2*m) %numerical implementation
